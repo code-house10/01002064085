@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-P57FKM5P');</script>
-<!-- End Google Tag Manager -->
+
+
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-5XRSL27T"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+
+
 
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -287,53 +290,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     .floating-call-text span{direction:ltr;letter-spacing:.4px}
     .floating-call-text:hover{transform:translateY(-2px);box-shadow:0 16px 32px rgba(0,0,0,.24)}
 
-    .call-confirm-overlay{
-      position:fixed;inset:0;z-index:120;background:rgba(7,14,30,.58);backdrop-filter:blur(5px);
-      display:flex;align-items:center;justify-content:center;padding:20px;opacity:0;visibility:hidden;transition:.25s ease
-    }
-    .call-confirm-overlay.open{opacity:1;visibility:visible}
-    .call-confirm-box{
-      width:min(420px,94vw);background:#fff;border-radius:22px;padding:28px 24px 22px;text-align:center;
-      box-shadow:0 30px 70px rgba(0,0,0,.28);transform:translateY(15px) scale(.98);transition:.25s ease;position:relative
-    }
-    .call-confirm-overlay.open .call-confirm-box{transform:none}
-    .call-confirm-icon{
-      width:62px;height:62px;margin:0 auto 14px;border-radius:50%;display:grid;place-items:center;
-      background:#fff1ef;color:var(--red);font-size:24px
-    }
-    .call-confirm-box h3{margin:0 0 8px;font-size:21px;color:var(--ink)}
-    .call-confirm-box p{margin:0 0 18px;color:#6d7481;font-size:13px;line-height:1.8}
-    .call-number-display{
-      display:inline-flex;align-items:center;justify-content:center;gap:10px;direction:ltr;margin-bottom:20px;
-      padding:13px 20px;border-radius:15px;
-      background:linear-gradient(135deg,#ffffff 0%,#f2f6ff 100%);
-      color:#112443;font-weight:900;font-size:20px;border:2px solid #dbe5f4;
-      box-shadow:0 12px 28px rgba(17,36,67,.12);
-      text-decoration:none;cursor:pointer;
-      transition:transform .22s ease,box-shadow .22s ease,border-color .22s ease,background .22s ease
-    }
-    .call-number-display i{
-      width:38px;height:38px;border-radius:50%;display:grid;place-items:center;
-      background:#112443;color:#fff;font-size:15px;flex:0 0 38px
-    }
-    .call-number-display:hover{
-      transform:translateY(-2px);border-color:#b7c8e0;background:#fff;
-      box-shadow:0 16px 34px rgba(17,36,67,.18)
-    }
-    .call-number-display:active{transform:translateY(0) scale(.99)}
-    .call-number-display span{letter-spacing:.5px}
-    .call-confirm-actions{display:grid;grid-template-columns:1fr 1fr;gap:10px}
-    .call-confirm-actions a,.call-confirm-actions button{
-      min-height:46px;border-radius:11px;font-family:inherit;font-weight:900;font-size:14px;cursor:pointer;display:grid;place-items:center;text-decoration:none
-    }
-    .call-confirm-actions a{background:var(--red);color:#fff;border:1px solid var(--red)}
-    .call-confirm-actions button{background:#fff;color:#2e3848;border:1px solid #dfe4ea}
-    @media (max-width:560px){
-      .floating-calls{left:10px;bottom:10px;gap:8px}
-      .floating-call-text{min-width:174px;height:46px;padding:0 12px;font-size:13px;border-radius:12px}
-      .floating-call-text i{width:28px;height:28px;flex-basis:28px}
-      .call-confirm-box{padding:24px 18px 18px;border-radius:18px}
-    }
+
 
     .reveal{opacity:0;transform:translateY(24px);transition:.65s ease}.reveal.show{opacity:1;transform:none}
 
@@ -646,7 +603,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     }
     .promo-side-cta{
       position:relative;z-index:1;width:100%;min-height:36px;border:0;border-radius:999px;background:#fff;color:#7c3aed;
-      font-weight:900;font-size:12px;cursor:pointer;box-shadow:0 7px 16px rgba(56,20,110,.20);transition:.2s ease
+      font-weight:900;font-size:12px;cursor:pointer;text-decoration:none;display:flex;align-items:center;justify-content:center;box-shadow:0 7px 16px rgba(56,20,110,.20);transition:.2s ease
     }
     .promo-side-cta:hover{transform:translateY(-2px)}
 
@@ -689,10 +646,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <body>
 
 
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P57FKM5P"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
   <div class="promo-top-banner" id="promoTopBanner" aria-hidden="true">
     <div class="promo-top-inner">
       <button class="promo-top-close" id="promoTopClose" type="button" aria-label="إغلاق عرض الخصم"><i class="fa-solid fa-xmark"></i></button>
@@ -700,7 +653,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <span class="promo-desktop-text"><span>🎉</span><strong>خصم 25%</strong><span>حصري على خدمات نقل العفش والتغليف</span></span>
         <span class="promo-mobile-text">خصم 25% حصري على جميع خدمات نقل الاثاث والبضائع!</span>
       </div>
-      <button class="promo-top-cta" id="promoTopCta" type="button"><i class="fa-solid fa-tag"></i> احجز الآن</button>
+      <a class="promo-top-cta" id="promoTopCta" href="tel:01009085603"><i class="fa-solid fa-tag"></i> احجز الآن</a>
     </div>
   </div>
 
@@ -726,8 +679,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <a class="active" href="#home">الرئيسية</a><a href="#about">من نحن</a><a href="#services">الخدمات</a><a href="#projects">أعمالنا</a><a href="#process">خطوات العمل</a><a href="#blog">المقالات</a><a href="#contact">تواصل معنا</a>
       </nav>
       <div class="header-actions">
-        <div class="phone-box"><span class="phone-icon"><i class="fa-solid fa-phone"></i></span><span class="phone-text">اتصل بنا الآن<strong>01009085603</strong></span></div>
-        <a class="btn btn-red" href="#quote">اطلب عرض سعر</a>
+        <a class="phone-box" href="tel:01009085603"><span class="phone-icon"><i class="fa-solid fa-phone"></i></span><span class="phone-text">اتصل بنا الآن<strong>01009085603</strong></span></a>
+        <a class="btn btn-red" href="tel:01009085603">اطلب عرض سعر</a>
         <button class="menu-toggle" id="menuToggle" aria-label="فتح القائمة"><i class="fa-solid fa-bars"></i></button>
       </div>
     </div>
@@ -740,8 +693,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <div class="container hero-grid">
             <div class="hero-copy">
               <div class="hero-buttons">
-                <a class="btn btn-red" href="#quote">احصل على عرض سعر <i class="fa-solid fa-arrow-left"></i></a>
-                <a class="watch" href="#services"><i class="fa-solid fa-play"></i> شاهد خدماتنا</a>
+                <a class="btn btn-red" href="tel:01009085603">احصل على عرض سعر <i class="fa-solid fa-arrow-left"></i></a>
+                <a class="watch" href="tel:01009085603"><i class="fa-solid fa-play"></i> شاهد خدماتنا</a>
               </div>
             </div>
           </div>
@@ -751,8 +704,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <div class="container hero-grid">
             <div class="hero-copy">
               <div class="hero-buttons">
-                <a class="btn btn-red" href="#services">استكشف خدمات التغليف <i class="fa-solid fa-arrow-left"></i></a>
-                <a class="watch" href="#about"><i class="fa-solid fa-circle-info"></i> لماذا نحن؟</a>
+                <a class="btn btn-red" href="tel:01009085603">استكشف خدمات التغليف <i class="fa-solid fa-arrow-left"></i></a>
+                <a class="watch" href="tel:01009085603"><i class="fa-solid fa-circle-info"></i> لماذا نحن؟</a>
               </div>
             </div>
           </div>
@@ -762,8 +715,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <div class="container hero-grid">
             <div class="hero-copy">
               <div class="hero-buttons">
-                <a class="btn btn-red" href="#quote">احجز موعد النقل <i class="fa-solid fa-arrow-left"></i></a>
-                <a class="watch" href="#process"><i class="fa-solid fa-list-check"></i> خطوات العمل</a>
+                <a class="btn btn-red" href="tel:01009085603">احجز موعد النقل <i class="fa-solid fa-arrow-left"></i></a>
+                <a class="watch" href="tel:01009085603"><i class="fa-solid fa-list-check"></i> خطوات العمل</a>
               </div>
             </div>
           </div>
@@ -831,7 +784,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           </div>
           <ul class="check-list"><li>نجار فك وتركيب غرف النوم والأثاث</li><li>فني تكييف وكهرباء عند الحاجة</li><li>ونش رفع للأدوار العالية والمداخل الضيقة</li><li>التزام بالمواعيد وتنفيذ منظم خطوة بخطوة</li></ul>
           <div class="about-mini">
-            <a class="btn btn-red" href="#services">تعرف على خدماتنا <i class="fa-solid fa-arrow-left"></i></a>
+            <a class="btn btn-red" href="tel:01009085603">تعرف على خدماتنا <i class="fa-solid fa-arrow-left"></i></a>
           </div>
         </div>
       </div>
@@ -846,9 +799,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <div class="container">
         <div class="section-head reveal"><div class="kicker">حلول النقل</div><h2 class="title">نساعدك تحصل على تجربة نقل أسهل وأكثر أمانًا</h2><p class="lead">خدمات متكاملة يمكن اختيارها منفردة أو كحل شامل لنقل المنزل أو المكتب أو الفيلا.</p></div>
         <div class="service-cards">
-          <article class="service-card reveal"><img src="https://ik.imagekit.io/mkek1asn5/khalaf/%D8%AA%D8%BA%D9%84%D9%8A%D9%81-%D8%A7%D9%84%D8%B9%D9%81%D8%B4-%D8%A8%D8%A7%D8%AC%D9%88%D8%AF-%D8%AE%D8%A7%D9%85%D8%A7%D8%AA-%D8%A7%D9%84%D8%AA%D8%BA%D9%84%D9%8A%D9%81.webp?updatedAt=1765220271983" alt="تغليف وتخزين العفش"><span class="service-icon-tag"><i class="fa-solid fa-warehouse"></i></span><div class="service-card-body"><h3>التغليف والتخزين</h3><p>تغليف كل قطعة حسب خامتها مع إمكانية التخزين الآمن لفترات قصيرة أو طويلة.</p><a class="service-link" href="#quote">اعرف المزيد <span>←</span></a></div></article>
-          <article class="service-card reveal"><img src="https://ik.imagekit.io/mkek1asn5/images/Rawda_aly/Al-Rawda%20Movers_%20Chandelier%20Installation.webp" alt="نقل عفش من الباب للباب"><span class="service-icon-tag"><i class="fa-solid fa-door-open"></i></span><div class="service-card-body"><h3>خدمة من الباب للباب</h3><p>نستلم العفش من موقعك ونقوم بالفك والتغليف والنقل والتركيب في المكان الجديد.</p><a class="service-link" href="#quote">اعرف المزيد <span>←</span></a></div></article>
-          <article class="service-card reveal"><img src="https://ik.imagekit.io/mkek1asn5/elmostafa_mostafa/%D9%86%D8%AC%D8%A7%D8%B1%D9%8A%D9%8A%D9%86-%D9%84%D9%81%D9%83-%D9%88%D8%AA%D8%B1%D9%83%D9%8A%D8%A8-%D8%A7%D9%84%D8%BA%D8%B1%D9%81.webp?updatedAt=1764187988505" alt="نقل مكاتب وشركات"><span class="service-icon-tag"><i class="fa-solid fa-building"></i></span><div class="service-card-body"><h3>نقل الشركات والمكاتب</h3><p>خطة نقل تقلل وقت التوقف وتتعامل بعناية مع المكاتب والأجهزة والملفات.</p><a class="service-link" href="#quote">اعرف المزيد <span>←</span></a></div></article>
+          <article class="service-card reveal"><img src="https://ik.imagekit.io/mkek1asn5/khalaf/%D8%AA%D8%BA%D9%84%D9%8A%D9%81-%D8%A7%D9%84%D8%B9%D9%81%D8%B4-%D8%A8%D8%A7%D8%AC%D9%88%D8%AF-%D8%AE%D8%A7%D9%85%D8%A7%D8%AA-%D8%A7%D9%84%D8%AA%D8%BA%D9%84%D9%8A%D9%81.webp?updatedAt=1765220271983" alt="تغليف وتخزين العفش"><span class="service-icon-tag"><i class="fa-solid fa-warehouse"></i></span><div class="service-card-body"><h3>التغليف والتخزين</h3><p>تغليف كل قطعة حسب خامتها مع إمكانية التخزين الآمن لفترات قصيرة أو طويلة.</p><a class="service-link" href="tel:01009085603">اعرف المزيد <span>←</span></a></div></article>
+          <article class="service-card reveal"><img src="https://ik.imagekit.io/mkek1asn5/images/Rawda_aly/Al-Rawda%20Movers_%20Chandelier%20Installation.webp" alt="نقل عفش من الباب للباب"><span class="service-icon-tag"><i class="fa-solid fa-door-open"></i></span><div class="service-card-body"><h3>خدمة من الباب للباب</h3><p>نستلم العفش من موقعك ونقوم بالفك والتغليف والنقل والتركيب في المكان الجديد.</p><a class="service-link" href="tel:01009085603">اعرف المزيد <span>←</span></a></div></article>
+          <article class="service-card reveal"><img src="https://ik.imagekit.io/mkek1asn5/elmostafa_mostafa/%D9%86%D8%AC%D8%A7%D8%B1%D9%8A%D9%8A%D9%86-%D9%84%D9%81%D9%83-%D9%88%D8%AA%D8%B1%D9%83%D9%8A%D8%A8-%D8%A7%D9%84%D8%BA%D8%B1%D9%81.webp?updatedAt=1764187988505" alt="نقل مكاتب وشركات"><span class="service-icon-tag"><i class="fa-solid fa-building"></i></span><div class="service-card-body"><h3>نقل الشركات والمكاتب</h3><p>خطة نقل تقلل وقت التوقف وتتعامل بعناية مع المكاتب والأجهزة والملفات.</p><a class="service-link" href="tel:01009085603">اعرف المزيد <span>←</span></a></div></article>
         </div>
         <div class="carousel-dots"><b>●</b> ● ● ●</div>
       </div>
@@ -857,7 +810,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <section class="section">
       <div class="container special-grid">
         <div class="special-image reveal"><span class="red-sticker">خدمة نقل في نفس اليوم</span><img src="https://ik.imagekit.io/mkek1asn5/khalaf/%D9%86%D9%82%D9%84-%D8%B9%D9%81%D8%B4-%D8%B9%D9%8A%D9%86-%D8%B4%D9%85%D8%B3.webp?updatedAt=1765220275891" alt="عامل نقل يحمل كرتونة"></div>
-        <div class="reveal"><div class="kicker">خدمة متخصصة</div><h2 class="title">خدمات نقل عفش باحتراف يناسب كل حالة.</h2><p class="lead">سواء كنت تنتقل لشقة جديدة أو تنقل مكتبًا كاملًا، نوفر لك المعدات والفنيين والعمالة المناسبة لطبيعة النقل بدون حلول عشوائية.</p><div class="mini-benefits"><div class="mini-benefit"><i class="fa-solid fa-people-carry-box"></i> عمالة مدربة على الرفع والحمل</div><div class="mini-benefit"><i class="fa-solid fa-truck"></i> عربيات نقل مغلقة ومجهزة</div><div class="mini-benefit"><i class="fa-solid fa-up-long"></i> ونش هيدروليكي للأدوار العالية</div><div class="mini-benefit"><i class="fa-solid fa-screwdriver-wrench"></i> فك وتركيب بواسطة فنيين</div></div><a class="btn btn-red" href="#quote">اطلب معاينة الآن</a></div>
+        <div class="reveal"><div class="kicker">خدمة متخصصة</div><h2 class="title">خدمات نقل عفش باحتراف يناسب كل حالة.</h2><p class="lead">سواء كنت تنتقل لشقة جديدة أو تنقل مكتبًا كاملًا، نوفر لك المعدات والفنيين والعمالة المناسبة لطبيعة النقل بدون حلول عشوائية.</p><div class="mini-benefits"><div class="mini-benefit"><i class="fa-solid fa-people-carry-box"></i> عمالة مدربة على الرفع والحمل</div><div class="mini-benefit"><i class="fa-solid fa-truck"></i> عربيات نقل مغلقة ومجهزة</div><div class="mini-benefit"><i class="fa-solid fa-up-long"></i> ونش هيدروليكي للأدوار العالية</div><div class="mini-benefit"><i class="fa-solid fa-screwdriver-wrench"></i> فك وتركيب بواسطة فنيين</div></div><a class="btn btn-red" href="tel:01009085603">اطلب معاينة الآن</a></div>
       </div>
     </section>
 
@@ -872,7 +825,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <section class="quote-section" id="quote">
       <div class="container quote-grid">
         <div class="quote-copy reveal"><div class="kicker">حلول نقل عملية</div><h2 class="title">حل نقل منظم، آمن، ومناسب لميزانيتك.</h2><p class="lead">نحدد احتياجك أولًا، ثم نختار حجم السيارة وعدد العمال ونوع التغليف وطريقة الرفع المناسبة، حتى تحصل على تكلفة واضحة وتنفيذ بدون مفاجآت.</p><div class="progresses"><div class="progress-row">الالتزام بالمواعيد<div class="bar"><span style="width:96%"></span></div></div><div class="progress-row">حماية الأثاث أثناء النقل<div class="bar"><span style="width:98%"></span></div></div><div class="progress-row">سرعة التنفيذ<div class="bar"><span style="width:94%"></span></div></div></div></div>
-        <div class="quote-side reveal"><div class="truck-shape"></div><form class="quote-card" onsubmit="event.preventDefault();alert('تم إرسال طلبك بنجاح');"><h3>اطلب عرض سعر</h3><div class="quote-form"><input placeholder="الاسم" required><input placeholder="رقم الهاتف" required><select><option>نوع الخدمة</option><option>نقل منزل</option><option>نقل مكتب</option><option>ونش رفع</option><option>تغليف فقط</option></select><input placeholder="المنطقة"><textarea class="full" placeholder="اكتب تفاصيل النقل: الدور، عدد الغرف، المنطقة..."></textarea><button type="submit">إرسال الطلب</button></div></form></div>
+        <div class="quote-side reveal"><div class="truck-shape"></div><div class="quote-card"><h3>اطلب عرض سعر</h3><p style="color:#fff;margin:0 0 18px;font-size:13px">اتصل بنا الآن لمعرفة التكلفة وتحديد موعد نقل الأثاث.</p><a class="btn btn-dark" href="tel:01009085603" style="width:100%;min-height:50px"><i class="fa-solid fa-phone"></i> اتصل الآن 01009085603</a></div></div>
       </div>
     </section>
 
@@ -881,7 +834,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </section>
 
     <section class="section" id="projects" style="background:#fafafa">
-      <div class="container"><div class="projects-head"><div><div class="kicker">أعمالنا الأخيرة</div><h2 class="title">نماذج من عمليات نقل تم تنفيذها باحتراف</h2></div><a class="btn btn-red" href="#quote">احجز عمليتك الآن</a></div><div class="projects-grid"><article class="project-card reveal"><img src="https://ik.imagekit.io/mkek1asn5/elmostafa_mostafa/%D9%86%D9%82%D9%84-%D8%B9%D9%81%D8%B4-%D8%A8%D8%A7%D9%84%D8%B4%D9%8A%D8%AE-%D8%B2%D8%A7%D9%8A%D8%AF.webp?updatedAt=1764187991046" alt="نقل منزل"><div class="project-overlay"><small>نقل منزل</small><h3>نقل شقة كاملة مع تغليف وتركيب</h3></div><span class="project-arrow">↙</span></article><article class="project-card reveal"><img src="https://ik.imagekit.io/mkek1asn5/elmostafa_mostafa/%D9%86%D9%82%D9%84-%D8%B9%D9%81%D8%B4-%D8%A8%D8%A7%D9%84%D9%85%D9%82%D8%B7%D9%85.webp?updatedAt=1764187990843" alt="نقل مكتب"><div class="project-overlay"><small>نقل شركات</small><h3>نقل مكتب وأجهزة بدون تعطيل العمل</h3></div><span class="project-arrow">↙</span></article><article class="project-card reveal"><img src="https://ik.imagekit.io/mkek1asn5/images/rehab1.webp?updatedAt=1776451053035" alt="نقل أثاث"><div class="project-overlay"><small>نقل فيلا</small><h3>فك وتغليف ونقل أثاث فاخر بعناية</h3></div><span class="project-arrow">↙</span></article></div></div>
+      <div class="container"><div class="projects-head"><div><div class="kicker">أعمالنا الأخيرة</div><h2 class="title">نماذج من عمليات نقل تم تنفيذها باحتراف</h2></div><a class="btn btn-red" href="tel:01009085603">احجز عمليتك الآن</a></div><div class="projects-grid"><article class="project-card reveal"><img src="https://ik.imagekit.io/mkek1asn5/elmostafa_mostafa/%D9%86%D9%82%D9%84-%D8%B9%D9%81%D8%B4-%D8%A8%D8%A7%D9%84%D8%B4%D9%8A%D8%AE-%D8%B2%D8%A7%D9%8A%D8%AF.webp?updatedAt=1764187991046" alt="نقل منزل"><div class="project-overlay"><small>نقل منزل</small><h3>نقل شقة كاملة مع تغليف وتركيب</h3></div><span class="project-arrow">↙</span></article><article class="project-card reveal"><img src="https://ik.imagekit.io/mkek1asn5/elmostafa_mostafa/%D9%86%D9%82%D9%84-%D8%B9%D9%81%D8%B4-%D8%A8%D8%A7%D9%84%D9%85%D9%82%D8%B7%D9%85.webp?updatedAt=1764187990843" alt="نقل مكتب"><div class="project-overlay"><small>نقل شركات</small><h3>نقل مكتب وأجهزة بدون تعطيل العمل</h3></div><span class="project-arrow">↙</span></article><article class="project-card reveal"><img src="https://ik.imagekit.io/mkek1asn5/images/rehab1.webp?updatedAt=1776451053035" alt="نقل أثاث"><div class="project-overlay"><small>نقل فيلا</small><h3>فك وتغليف ونقل أثاث فاخر بعناية</h3></div><span class="project-arrow">↙</span></article></div></div>
     </section>
 
     <div class="fleet-title-band"><div class="container"><div class="fleet-big"><span class="outline">LOGISTIC</span> • TRANSPORTATION • <span class="outline">MOVING</span></div></div></div>
@@ -906,30 +859,17 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="promo-side-title">الخصم ينتهي بعد</div>
     <div class="promo-side-sub">احجز الآن واستفد من خصم 25%</div>
     <div class="promo-countdown" id="promoCountdown"><span id="promoHours">04</span><b>:</b><span id="promoMinutes">59</span><b>:</b><span id="promoSeconds">59</span></div>
-    <button class="promo-side-cta" id="promoSideCta" type="button">احجز الآن</button>
+    <a class="promo-side-cta" id="promoSideCta" href="tel:01009085603">احجز الآن</a>
   </aside>
 
   <div class="floating-calls" aria-label="أرقام الاتصال السريع">
-    <button class="floating-call-text js-call-confirm" type="button" data-phone="01002064085" aria-label="اتصال على 01002064085">
+    <a class="floating-call-text" href="tel:01002064085" aria-label="اتصال على 01002064085">
       <i class="fa-solid fa-phone"></i><span>01002064085</span>
-    </button>
-    <button class="floating-call-text js-call-confirm" type="button" data-phone="01009085603" aria-label="اتصال على 01009085603">
+    </a>
+    <a class="floating-call-text" href="tel:01009085603" aria-label="اتصال على 01009085603">
       <i class="fa-solid fa-phone"></i><span>01009085603</span>
-    </button>
+    </a>
   </div>
-<div class="call-confirm-overlay" id="callConfirmOverlay" aria-hidden="true">
-    <div class="call-confirm-box" role="dialog" aria-modal="true" aria-labelledby="callConfirmTitle">
-      <div class="call-confirm-icon"><i class="fa-solid fa-phone-volume"></i></div>
-      <h3 id="callConfirmTitle">تأكيد الاتصال</h3>
-      <p>هل تريد إجراء المكالمة الآن؟ اضغط على «اتصال الآن» للمتابعة.</p>
-      <a class="call-number-display" id="callNumberDisplayLink" href="tel:01002064085" aria-label="اتصال مباشر على 01002064085"><i class="fa-solid fa-phone"></i><span id="callConfirmNumber">01002064085</span></a>
-      <div class="call-confirm-actions">
-        <a id="callConfirmLink" href="tel:01002064085"><i class="fa-solid fa-phone"></i>&nbsp; اتصال الآن</a>
-        <button type="button" id="callConfirmCancel">إلغاء</button>
-      </div>
-    </div>
-  </div>
-
   <script>
     const menuToggle=document.getElementById('menuToggle');
     const menu=document.getElementById('menu');
@@ -964,34 +904,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     heroCarousel?.addEventListener('mouseleave',startHeroAuto);
     document.addEventListener('visibilitychange',()=>document.hidden?clearInterval(heroTimer):startHeroAuto());
     startHeroAuto();
-
-    // Two-step call confirmation for floating phone buttons
-    const callOverlay=document.getElementById('callConfirmOverlay');
-    const callNumber=document.getElementById('callConfirmNumber');
-    const callLink=document.getElementById('callConfirmLink');
-    const callNumberDisplayLink=document.getElementById('callNumberDisplayLink');
-    const callCancel=document.getElementById('callConfirmCancel');
-
-    function openCallConfirm(phone='01002064085'){
-      callNumber.textContent=phone;
-      callLink.href='tel:'+phone;
-      callNumberDisplayLink.href='tel:'+phone;
-      callNumberDisplayLink.setAttribute('aria-label','اتصال مباشر على '+phone);
-      callOverlay.classList.add('open');
-      callOverlay.setAttribute('aria-hidden','false');
-    }
-
-    document.querySelectorAll('.js-call-confirm').forEach(btn=>{
-      btn.addEventListener('click',()=>openCallConfirm(btn.dataset.phone));
-    });
-    function closeCallConfirm(){
-      callOverlay.classList.remove('open');
-      callOverlay.setAttribute('aria-hidden','true');
-    }
-    callCancel.addEventListener('click',closeCallConfirm);
-    callOverlay.addEventListener('click',e=>{if(e.target===callOverlay)closeCallConfirm()});
-    document.addEventListener('keydown',e=>{if(e.key==='Escape')closeCallConfirm()});
-
 
     // Floating rotating reviews
     const floatingReviews = [
@@ -1070,11 +982,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     let promoTopDismissed=false;
     let promoSideDismissed=false;
 
-    function openPromoCallConfirmation(){
-      openCallConfirm('01002064085');
-    }
-    promoTopCta?.addEventListener('click',openPromoCallConfirmation);
-    promoSideCta?.addEventListener('click',openPromoCallConfirmation);
 
     function setTopPromoVisible(show){
       if(!promoTopBanner) return;
